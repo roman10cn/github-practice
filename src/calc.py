@@ -7,7 +7,7 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    return a + b  # 故意写错，稍后用 revert 撤销
+    return a * b
 
 
 def divide(a, b):
