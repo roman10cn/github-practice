@@ -11,6 +11,7 @@ def multiply(a, b):
 
 
 def divide(a, b):
+    """返回 a 除以 b 的浮点结果。"""
     return a / b
 
 
