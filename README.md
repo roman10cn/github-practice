@@ -2,7 +2,7 @@
 
 GitHub 功能实操练习仓库：从第一次 commit 走到 PR 合并、Actions 自动测试与 Pages 上线。
 
-## 用法
+## 使用方法（分支版本）
 
 ```powershell
 python src/calc.py
