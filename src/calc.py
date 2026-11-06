@@ -11,7 +11,9 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    """返回 a 除以 b 的浮点结果。"""
+    """返回 a 除以 b 的浮点结果；除数为 0 时抛出 ValueError。"""
+    if b == 0:
+        raise ValueError("除数不能为 0")
     return a / b
 
 
